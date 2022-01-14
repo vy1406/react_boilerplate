@@ -15,6 +15,7 @@ import store from './store/store';
 const rootElement = document.getElementById("root");
 render(
     <Provider store={store}>
+    
         <BrowserRouter>
             <App />
             <Routes>
